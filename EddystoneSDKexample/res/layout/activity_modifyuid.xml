@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/edit_nameSpaceid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:digits="ABCDEF1234567890"
+        android:hint="Input the nameSpaceID"
+        android:maxLength="20"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/edit_instanceid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:digits="ABCDEF1234567890"
+        android:hint="Input the instanceID"
+        android:maxLength="12"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/edit_period"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Input the period"
+        android:inputType="number"
+        android:maxLength="4"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/edit_txPower"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Input the txPower"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/edit_deviceName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Input the deviceName"
+        android:maxLength="15"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/edit_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Input the password"
+        android:inputType="textPassword"
+        android:maxLength="6"
+        android:padding="5dp" />
+
+   
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_modifypass"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="modify passWord" />
+
+        <Button
+            android:id="@+id/btn_modify"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="modify" />
+    </LinearLayout>
+
+
+</LinearLayout>

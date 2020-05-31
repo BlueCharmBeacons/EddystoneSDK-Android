@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/edit_input_oldpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:hint="input the old password"
+        android:inputType="textPassword"
+        android:maxLength="6" />
+
+    <EditText
+        android:id="@+id/edit_input_newpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:hint="input the new password"
+        android:inputType="textPassword"
+        android:maxLength="6" />
+
+    <EditText
+        android:id="@+id/edit_confirm_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:hint="Confirm password again"
+        android:inputType="textPassword"
+        android:maxLength="6" />
+
+    <Button
+        android:id="@+id/btn_modifypass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modify passWord" />
+
+</LinearLayout>

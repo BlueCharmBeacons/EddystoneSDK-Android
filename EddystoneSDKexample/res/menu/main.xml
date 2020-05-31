@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.test2.MainActivity" >
+
+    <item
+        android:id="@+id/action_start"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="start scan"/>
+    <item
+        android:id="@+id/action_stop"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="stop scan"/>
+
+</menu>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EddystoneSDKexample</string>
+   <string name="ble_not_supported">BLE is not supported</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="toast_quit">Press again to exit the Eddystone</string>
+    <string name="toast_modify">Modify&#8230;</string>
+    <string name="toast_password_error">password error</string>
+    <string name="toast_connect_fail">Connect failed, please again</string>
+    <string name="toast_input_pass">Please input the password</string>
+    <string name="toast_input_uuid">Please input the right uuid</string>
+    <string name="toast_input_major">Please input the Major</string>
+    <string name="toast_major_less">the Major must be smaller than 65536</string>
+    <string name="toast_mainor_less">the Minor must be smaller than 65536</string>
+    <string name="toast_input_minor">Please input the Minor</string>
+    <string name="toast_input_period">Please input the Period</string>
+    <string name="toast_modify_success">Modify the success</string>
+    <string name="toast_connect_tip">The device cannt connect</string>
+    <string name="toast_disconnet_tip">The device is disconnect</string>
+    
+    <string name="toast_input_namespace">Please input the right namespaceID</string>
+    <string name="toast_input_instance">Please input the right instanceID</string>
+
+
+    <string name="toast_input_url">Please input the right url</string>
+    <string name="toast_input_righturl">Please input the right url and can not have any Chinese</string>
+    <string name="toast_suffix22">The length of the URL suffix can not exceed 22 characters</string>
+    <string name="toast_suffix21">The length of the URL suffix can not exceed 21 characters</string>
+    <string name="toast_suffix20">The length of the URL suffix can not exceed 20 characters</string>
+    <string name="toast_suffix17">The length of the URL suffix can not exceed 17 characters</string>
+    <string name="toast_pass_lenght">The new password length must be 6</string>
+    <string name="toast_pass_confirm">Please confirm again</string>
+    <string name="device_disconnect">The device cannot connect</string>
+    
+    
+</resources>
